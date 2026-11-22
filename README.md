@@ -2,8 +2,7 @@
 
 A Deep Convolutional GAN that generates synthetic 64x64 human faces from random noise, trained on CelebA.
 
-**Live demo:**  [Try it here](https://face-gan-dcgan-bpmyw8ceextitjxmr9njeq.streamlit.app/)
-<PUT YOUR STREAMLIT APP LINK HERE>
+**Live demo:** [Try it here](https://face-gan-dcgan-bpmyw8ceextitjxmr9njeq.streamlit.app/)
 
 ## Demo app
 <img width="797" height="870" alt="Streamlit demo" src="https://github.com/user-attachments/assets/b86781ec-028a-4b75-82eb-fd459a8b66ec" />
@@ -48,13 +47,17 @@ pip install -r requirements.txt
 python -m streamlit run streamlit_app.py
 ```
 
+## Notebooks
+- [Training notebook (Kaggle)](https://www.kaggle.com/code/mairedaai/realistic-face-generation-with-gan): full 30-epoch training on a T4 GPU
+- [Results and analysis notebook (Kaggle)](https://www.kaggle.com/code/mairedaai/realistic-human-face-generation-using-gan): architecture, curves, progress over time, interpolation, FID
+
 ## Files
 - `realistic-face-generation-with-gan.ipynb` training notebook
 - `realistic-human-face-generation-using-gan.ipynb` results and analysis notebook
 - `generator.pth` trained generator weights
 - `streamlit_app.py` Streamlit demo
 - `requirements.txt` dependencies
-- 
+
 ## Dataset
 CelebA: Liu et al., *Deep Learning Face Attributes in the Wild*, ICCV 2015. Used for research and educational purposes.
 All faces shown are synthetic and do not depict real people.
